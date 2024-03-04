@@ -21,6 +21,7 @@ def play_game(level_attempts):
         
         if guess == random_number:
             print("Congratulations! You guessed the correct number.")
+            break
         
         elif guess < random_number:
             print("Too low, try again")
@@ -28,10 +29,11 @@ def play_game(level_attempts):
         else:
             print("Too high, try again")
             
-    attempts_left -= 1
+        attempts_left -= 1
     
     if attempts_left == 0:
         print(f"Sorry you have run out of attempts, the correct number was {random_number} ")
+
 
 def main():
     print("Welcome to the Guessing Number Game")
