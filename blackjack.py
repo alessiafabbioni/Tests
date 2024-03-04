@@ -1,3 +1,23 @@
+    """
+    Things to remember here
+    
+    Steps taken:
+    
+    functions
+        - function deal cards
+        - function to calculate score
+        - function to compare score
+        - function to show results
+    
+    loop
+        - while loop for user hand
+        - while loop for computer hand
+        - while loop to restart game
+    
+    """
+
+
+
 
 def clear():  # Prints 50 blank lines
     print("\n" * 50)
